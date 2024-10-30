@@ -1,0 +1,7 @@
+D:\Dotnet_Training\Assignments\Ajay_Assignments\obj\Debug\Ajay_Assignments.csproj.AssemblyReference.cache
+D:\Dotnet_Training\Assignments\Ajay_Assignments\obj\Debug\Ajay_Assignments.csproj.CoreCompileInputs.cache
+D:\Dotnet_Training\Assignments\Ajay_Assignments\bin\Debug\Ajay_Assignments.exe.config
+D:\Dotnet_Training\Assignments\Ajay_Assignments\bin\Debug\Ajay_Assignments.exe
+D:\Dotnet_Training\Assignments\Ajay_Assignments\bin\Debug\Ajay_Assignments.pdb
+D:\Dotnet_Training\Assignments\Ajay_Assignments\obj\Debug\Ajay_Assignments.exe
+D:\Dotnet_Training\Assignments\Ajay_Assignments\obj\Debug\Ajay_Assignments.pdb
