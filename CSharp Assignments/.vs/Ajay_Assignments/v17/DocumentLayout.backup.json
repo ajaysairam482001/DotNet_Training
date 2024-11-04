@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Dotnet_Training\\Assignments\\Ajay_Assignments\\",
+  "WorkspaceRootPath": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|d:\\dotnet_training\\assignments\\ajay_assignments\\assignment2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:assignment2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|d:\\dotnet_training\\assignments\\csharp assignments\\assignment3\\strings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:assignment3\\strings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|d:\\dotnet_training\\assignments\\ajay_assignments\\assignment1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:assignment1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|d:\\dotnet_training\\assignments\\csharp assignments\\assignment2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:assignment2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Assignment1.cs",
-              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\Ajay_Assignments\\Assignment1.cs",
-              "RelativeDocumentMoniker": "Assignment1.cs",
-              "ToolTip": "D:\\Dotnet_Training\\Assignments\\Ajay_Assignments\\Assignment1.cs",
-              "RelativeToolTip": "Assignment1.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCsAAAAbAAAAAAAAAA==",
+              "Title": "Assignment2.cs",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment2.cs",
+              "RelativeDocumentMoniker": "Assignment2.cs",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment2.cs",
+              "RelativeToolTip": "Assignment2.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T04:19:06.313Z",
+              "WhenOpened": "2024-11-04T17:17:16.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Assignment2.cs",
-              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\Ajay_Assignments\\Assignment2.cs",
-              "RelativeDocumentMoniker": "Assignment2.cs",
-              "ToolTip": "D:\\Dotnet_Training\\Assignments\\Ajay_Assignments\\Assignment2.cs*",
-              "RelativeToolTip": "Assignment2.cs*",
-              "ViewState": "AgIAACQAAAAAAAAAAAAiwDoAAAA0AAAAAAAAAA==",
+              "Title": "Strings.cs",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment3\\Strings.cs",
+              "RelativeDocumentMoniker": "Assignment3\\Strings.cs",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment3\\Strings.cs*",
+              "RelativeToolTip": "Assignment3\\Strings.cs*",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAowFAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T04:18:56.169Z",
+              "WhenOpened": "2024-11-04T16:42:41.885Z",
               "EditorCaption": ""
             }
           ]
