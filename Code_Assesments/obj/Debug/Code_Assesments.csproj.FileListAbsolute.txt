@@ -1,0 +1,7 @@
+D:\Dotnet_Training\Assignments\Code_Assesments\bin\Debug\Code_Assesments.exe.config
+D:\Dotnet_Training\Assignments\Code_Assesments\bin\Debug\Code_Assesments.exe
+D:\Dotnet_Training\Assignments\Code_Assesments\bin\Debug\Code_Assesments.pdb
+D:\Dotnet_Training\Assignments\Code_Assesments\obj\Debug\Code_Assesments.csproj.AssemblyReference.cache
+D:\Dotnet_Training\Assignments\Code_Assesments\obj\Debug\Code_Assesments.csproj.CoreCompileInputs.cache
+D:\Dotnet_Training\Assignments\Code_Assesments\obj\Debug\Code_Assesments.exe
+D:\Dotnet_Training\Assignments\Code_Assesments\obj\Debug\Code_Assesments.pdb
