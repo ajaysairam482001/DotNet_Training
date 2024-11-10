@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|solutionrelative:assesment1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|d:\\dotnet_training\\assignments\\code_assesments\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|D:\\Dotnet_Training\\Assignments\\Code_Assesments\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Assesment1.cs",
               "ToolTip": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Assesment1.cs",
               "RelativeToolTip": "Assesment1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T04:25:40.05Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T04:25:07.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T04:25:07.214Z"
             }
           ]
         }

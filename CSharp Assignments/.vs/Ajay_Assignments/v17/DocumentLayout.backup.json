@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\assignment3\\testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|d:\\dotnet_training\\assignments\\csharp assignments\\assignment4\\question3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:assignment4\\question3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|d:\\dotnet_training\\assignments\\csharp assignments\\assignment4\\question2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:assignment4\\question2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|d:\\dotnet_training\\assignments\\csharp assignments\\assignment4\\question1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:assignment4\\question1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|d:\\dotnet_training\\assignments\\csharp assignments\\assignment3\\testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:assignment3\\testing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|d:\\dotnet_training\\assignments\\csharp assignments\\assignment3\\saledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:assignment3\\saledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|d:\\dotnet_training\\assignments\\csharp assignments\\assignment3\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:assignment3\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\assignment3\\bankaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:assignment3\\bankaccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\assignment3\\strings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:assignment3\\strings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\assignment3\\saledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:assignment3\\saledetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Question3.cs",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment4\\Question3.cs",
+              "RelativeDocumentMoniker": "Assignment4\\Question3.cs",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment4\\Question3.cs",
+              "RelativeToolTip": "Assignment4\\Question3.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAiwKMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:29:43.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Question2.cs",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment4\\Question2.cs",
+              "RelativeDocumentMoniker": "Assignment4\\Question2.cs",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment4\\Question2.cs",
+              "RelativeToolTip": "Assignment4\\Question2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:45:18.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Testing.cs",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment3\\Testing.cs",
+              "RelativeDocumentMoniker": "Assignment3\\Testing.cs",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment3\\Testing.cs",
+              "RelativeToolTip": "Assignment3\\Testing.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:20:28.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Question1.cs",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment4\\Question1.cs",
+              "RelativeDocumentMoniker": "Assignment4\\Question1.cs",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment4\\Question1.cs",
+              "RelativeToolTip": "Assignment4\\Question1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:01:29.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "SaleDetails.cs",
               "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment3\\SaleDetails.cs",
               "RelativeDocumentMoniker": "Assignment3\\SaleDetails.cs",
               "ToolTip": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment3\\SaleDetails.cs",
               "RelativeToolTip": "Assignment3\\SaleDetails.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T16:05:38.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment3\\Student.cs",
-              "RelativeDocumentMoniker": "Assignment3\\Student.cs",
-              "ToolTip": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment3\\Student.cs",
-              "RelativeToolTip": "Assignment3\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T11:13:43.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Testing.cs",
-              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment3\\Testing.cs",
-              "RelativeDocumentMoniker": "Assignment3\\Testing.cs",
-              "ToolTip": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment3\\Testing.cs",
-              "RelativeToolTip": "Assignment3\\Testing.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T10:36:54.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BankAccounts.cs",
               "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment3\\BankAccounts.cs",
               "RelativeDocumentMoniker": "Assignment3\\BankAccounts.cs",
               "ToolTip": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment3\\BankAccounts.cs",
               "RelativeToolTip": "Assignment3\\BankAccounts.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwE4AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T17:37:43.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Strings.cs",
-              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment3\\Strings.cs",
-              "RelativeDocumentMoniker": "Assignment3\\Strings.cs",
-              "ToolTip": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment3\\Strings.cs",
-              "RelativeToolTip": "Assignment3\\Strings.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAQwFAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T16:42:41.885Z"
+              "WhenOpened": "2024-11-04T17:37:43.717Z",
+              "EditorCaption": ""
             }
           ]
         }
