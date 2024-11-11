@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Ajay_Assignments.Assignment4.Question5</StartupObject>
+    <StartupObject>Ajay_Assignments.Assignment4.Question4</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
