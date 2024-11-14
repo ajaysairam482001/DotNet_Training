@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Ajay_Assignments.Assignment4.Question4</StartupObject>
+    <StartupObject>Ajay_Assignments.Assignment5.Question3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -58,6 +58,9 @@
     <Compile Include="Assignment4\Question3.cs" />
     <Compile Include="Assignment4\Question4.cs" />
     <Compile Include="Assignment4\Question5.cs" />
+    <Compile Include="Assignment5\Question1.cs" />
+    <Compile Include="Assignment5\Question2.cs" />
+    <Compile Include="Assignment5\Question3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
