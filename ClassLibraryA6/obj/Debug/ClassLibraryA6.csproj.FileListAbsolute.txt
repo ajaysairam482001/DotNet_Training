@@ -1,0 +1,6 @@
+D:\Dotnet_Training\Assignments\ClassLibraryA6\bin\Debug\ClassLibraryA6.dll
+D:\Dotnet_Training\Assignments\ClassLibraryA6\bin\Debug\ClassLibraryA6.pdb
+D:\Dotnet_Training\Assignments\ClassLibraryA6\obj\Debug\ClassLibraryA6.csproj.AssemblyReference.cache
+D:\Dotnet_Training\Assignments\ClassLibraryA6\obj\Debug\ClassLibraryA6.csproj.CoreCompileInputs.cache
+D:\Dotnet_Training\Assignments\ClassLibraryA6\obj\Debug\ClassLibraryA6.dll
+D:\Dotnet_Training\Assignments\ClassLibraryA6\obj\Debug\ClassLibraryA6.pdb

@@ -8,7 +8,10 @@ D:\Dotnet_Training\Assignments\Ajay_Assignments\obj\Debug\Ajay_Assignments.pdb
 D:\Dotnet_Training\Assignments\CSharp Assignments\bin\Debug\Ajay_Assignments.exe.config
 D:\Dotnet_Training\Assignments\CSharp Assignments\bin\Debug\Ajay_Assignments.exe
 D:\Dotnet_Training\Assignments\CSharp Assignments\bin\Debug\Ajay_Assignments.pdb
+D:\Dotnet_Training\Assignments\CSharp Assignments\bin\Debug\ClassLibraryA6.dll
+D:\Dotnet_Training\Assignments\CSharp Assignments\bin\Debug\ClassLibraryA6.pdb
 D:\Dotnet_Training\Assignments\CSharp Assignments\obj\Debug\Ajay_Assignments.csproj.AssemblyReference.cache
 D:\Dotnet_Training\Assignments\CSharp Assignments\obj\Debug\Ajay_Assignments.csproj.CoreCompileInputs.cache
+D:\Dotnet_Training\Assignments\CSharp Assignments\obj\Debug\Ajay_Ass.BA1F589E.Up2Date
 D:\Dotnet_Training\Assignments\CSharp Assignments\obj\Debug\Ajay_Assignments.exe
 D:\Dotnet_Training\Assignments\CSharp Assignments\obj\Debug\Ajay_Assignments.pdb

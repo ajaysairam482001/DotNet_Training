@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2E944F47-C70E-4B00-A69E-43665B3DD340}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Ajay_Assignments</RootNamespace>
-    <AssemblyName>Ajay_Assignments</AssemblyName>
+    <ProjectGuid>{121EBBD2-EED9-4A9A-A40B-1BF694B5B453}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClassLibraryA6</RootNamespace>
+    <AssemblyName>ClassLibraryA6</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,16 +23,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>Ajay_Assignments.Assignment6.Question4</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,35 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assignment1.cs" />
-    <Compile Include="Assignment2.cs" />
-    <Compile Include="Assignment3\BankAccounts.cs" />
-    <Compile Include="Assignment3\SaleDetails.cs" />
-    <Compile Include="Assignment3\Strings.cs" />
-    <Compile Include="Assignment3\Student.cs" />
-    <Compile Include="Assignment3\Testing.cs" />
-    <Compile Include="Assignment4\Question1.cs" />
-    <Compile Include="Assignment4\Question2.cs" />
-    <Compile Include="Assignment4\Question3.cs" />
-    <Compile Include="Assignment4\Question4.cs" />
-    <Compile Include="Assignment4\Question5.cs" />
-    <Compile Include="Assignment5\Question1.cs" />
-    <Compile Include="Assignment5\Question2.cs" />
-    <Compile Include="Assignment5\Question3.cs" />
-    <Compile Include="Assignment6\Question1.cs" />
-    <Compile Include="Assignment6\Question2.cs" />
-    <Compile Include="Assignment6\Question3.cs" />
-    <Compile Include="Assignment6\Question4.cs" />
+    <Compile Include="ConcessionCalc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ClassLibraryA6\ClassLibraryA6.csproj">
-      <Project>{121ebbd2-eed9-4a9a-a40b-1bf694b5b453}</Project>
-      <Name>ClassLibraryA6</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
