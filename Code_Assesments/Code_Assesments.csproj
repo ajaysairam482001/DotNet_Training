@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Code_Assesments.Assesment2.Question3</StartupObject>
+    <StartupObject>Code_Assesments.Assesment3.Question2</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,10 @@
     <Compile Include="Assesment2\Question2.cs" />
     <Compile Include="Assesment2\Question3.cs" />
     <Compile Include="Assesment2\Sample1.cs" />
+    <Compile Include="Assesment3\Question1.cs" />
+    <Compile Include="Assesment3\Question2.cs" />
+    <Compile Include="Assesment3\Question3.cs" />
+    <Compile Include="Assesment3\Question4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -59,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assesment2\Output_A2ss\" />
+    <Folder Include="Assesment3\OutputA3\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
