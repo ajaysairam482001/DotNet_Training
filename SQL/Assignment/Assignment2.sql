@@ -7,9 +7,7 @@ foreign key (DeptNo) references DEPT(DeptNo));
 create table DEPT(DeptNo int, Dname varchar(25), dLocation varchar(40),
 primary key(DeptNo));
 
-select * from EMP;
 select * from DEPT;
-
 truncate table EMP;
 
 insert into Dept values(10,'Accounting','New York'),
