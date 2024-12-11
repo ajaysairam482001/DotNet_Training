@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|d:\\dotnet_training\\assignments\\code_assesments\\assesment4\\linq_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|solutionrelative:assesment4\\linq_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|d:\\dotnet_training\\assignments\\code_assesments\\assesment6\\ado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|solutionrelative:assesment6\\ado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Code_Assesments||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
@@ -20,8 +20,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ADO.cs",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Assesment6\\ADO.cs",
+              "RelativeDocumentMoniker": "Assesment6\\ADO.cs",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Assesment6\\ADO.cs",
+              "RelativeToolTip": "Assesment6\\ADO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T05:41:41.593Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,19 +45,6 @@
               "RelativeToolTip": "Code_Assesments.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-11-27T11:45:14.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LINQ_Question.cs",
-              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Assesment4\\LINQ_Question.cs",
-              "RelativeDocumentMoniker": "Assesment4\\LINQ_Question.cs",
-              "ToolTip": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Assesment4\\LINQ_Question.cs",
-              "RelativeToolTip": "Assesment4\\LINQ_Question.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:29:54.065Z",
               "EditorCaption": ""
             }
           ]
