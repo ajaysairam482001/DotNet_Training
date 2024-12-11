@@ -20,8 +20,8 @@ namespace Code_Assesments.Assesment6
                     using (SqlCommand cmd = new SqlCommand("Insert_ProdDetails", conn))
                     {
                         cmd.CommandType = CommandType.StoredProcedure;
-                        cmd.Parameters.AddWithValue("@ProductName", "ACER Nitro5");
-                        cmd.Parameters.AddWithValue("@Price", 84000);
+                        cmd.Parameters.AddWithValue("@ProductName", "Stanley Bottle");
+                        cmd.Parameters.AddWithValue("@Price", 1000);
                         SqlParameter productIdParam = new SqlParameter("@GeneratedProductId", SqlDbType.Int)
                         {
                             Direction = ParameterDirection.Output
