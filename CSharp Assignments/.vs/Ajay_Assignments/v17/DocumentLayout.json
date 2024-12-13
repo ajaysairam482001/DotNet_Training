@@ -3,15 +3,8 @@
   "WorkspaceRootPath": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|d:\\dotnet_training\\assignments\\csharp assignments\\ado_assignment1\\linq_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:ado_assignment1\\linq_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|d:\\dotnet_training\\assignments\\csharp assignments\\assignment6\\question4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:assignment6\\question4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{121EBBD2-EED9-4A9A-A40B-1BF694B5B453}|..\\ClassLibraryA6\\ClassLibraryA6.csproj|d:\\dotnet_training\\assignments\\classlibrarya6\\concessioncalc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|d:\\dotnet_training\\assignments\\csharp assignments\\html_assignment\\htmlpage1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:html_assignment\\htmlpage1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,39 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LINQ_Question.cs",
-              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\ADO_Assignment1\\LINQ_Question.cs",
-              "RelativeDocumentMoniker": "ADO_Assignment1\\LINQ_Question.cs",
-              "ToolTip": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\ADO_Assignment1\\LINQ_Question.cs",
-              "RelativeToolTip": "ADO_Assignment1\\LINQ_Question.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAgwFcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T12:27:14.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConcessionCalc.cs",
-              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\ClassLibraryA6\\ConcessionCalc.cs",
-              "RelativeDocumentMoniker": "..\\ClassLibraryA6\\ConcessionCalc.cs",
-              "ToolTip": "D:\\Dotnet_Training\\Assignments\\ClassLibraryA6\\ConcessionCalc.cs",
-              "RelativeToolTip": "..\\ClassLibraryA6\\ConcessionCalc.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T12:44:21.002Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Question4.cs",
-              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment6\\Question4.cs",
-              "RelativeDocumentMoniker": "Assignment6\\Question4.cs",
-              "ToolTip": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment6\\Question4.cs",
-              "RelativeToolTip": "Assignment6\\Question4.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T12:27:29.261Z",
+              "Title": "HTMLPage1.html",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\HTML_Assignment\\HTMLPage1.html",
+              "RelativeDocumentMoniker": "HTML_Assignment\\HTMLPage1.html",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\HTML_Assignment\\HTMLPage1.html",
+              "RelativeToolTip": "HTML_Assignment\\HTMLPage1.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-13T14:32:24.747Z",
               "EditorCaption": ""
             }
           ]

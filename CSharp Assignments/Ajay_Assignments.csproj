@@ -77,5 +77,8 @@
       <Name>ClassLibraryA6</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="HTML_Assignment\HTMLPage1.html" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

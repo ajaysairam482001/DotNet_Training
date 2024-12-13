@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|d:\\dotnet_training\\assignments\\csharp assignments\\ado_assignment1\\linq_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:ado_assignment1\\linq_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|d:\\dotnet_training\\assignments\\csharp assignments\\assignment6\\question4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E944F47-C70E-4B00-A69E-43665B3DD340}|Ajay_Assignments.csproj|solutionrelative:assignment6\\question4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,11 +21,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "LINQ_Question.cs",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\ADO_Assignment1\\LINQ_Question.cs",
+              "RelativeDocumentMoniker": "ADO_Assignment1\\LINQ_Question.cs",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\ADO_Assignment1\\LINQ_Question.cs",
+              "RelativeToolTip": "ADO_Assignment1\\LINQ_Question.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T12:27:14.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ConcessionCalc.cs",
               "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\ClassLibraryA6\\ConcessionCalc.cs",
               "RelativeDocumentMoniker": "..\\ClassLibraryA6\\ConcessionCalc.cs",
@@ -29,12 +46,11 @@
               "RelativeToolTip": "..\\ClassLibraryA6\\ConcessionCalc.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T12:44:21.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T12:44:21.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Question4.cs",
               "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\CSharp Assignments\\Assignment6\\Question4.cs",
               "RelativeDocumentMoniker": "Assignment6\\Question4.cs",
