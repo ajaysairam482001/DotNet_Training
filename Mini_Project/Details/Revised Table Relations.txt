@@ -1,0 +1,19 @@
+Revised Table Relations
+
+Login Table
+Columns: ID(P_key), UserName, Password(Hashed), Category(Admin/User), Email(Unique)
+
+User Table
+Columns: ID(F_key(Login)), Name, Email, ContactNumber(Optional)
+
+Trains Table
+Columns: TrainNo(P_key), TrainName, TrainType (optional)
+
+Train Schedule Details Table
+Columns: TrainInstanceId(P_key), TrainNo(F_key(Trains)), From, To, Timings, HoursOfJourney, DateOfDeparture, Status(Active/Cancelled)
+
+Ticket Table
+Columns: TicketNo(P_key), UserID(F_key(User)), TrainInstanceID(F_key(TSD)), Class, Berth, SeatNumber, BookingDate, Status(Booked/Cancelled).
+
+BerthDetails_atInstanceTrain Table
+Columns: TrainInstanceNo(F_key(TSD)), Class, TotalBerthAvailable (1or2or3), SeatLimits, BookedSeats, Available Seats. 
