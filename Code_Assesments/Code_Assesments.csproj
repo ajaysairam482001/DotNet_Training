@@ -68,5 +68,12 @@
     <Folder Include="Assesment3\OutputA3\" />
     <Folder Include="Assesment4\Output\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assesment7\JS_Q1.html" />
+    <Content Include="Assesment7\JS_Q2.html" />
+    <Content Include="Assesment7\Question1.html" />
+    <Content Include="Assesment7\Question2.html" />
+    <Content Include="Assesment7\Question3.html" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

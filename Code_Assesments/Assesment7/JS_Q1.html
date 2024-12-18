@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        const m = () => {
+            const x = parseFloat(document.getElementById('num1').value);
+            const y = parseFloat(document.getElementById('num2').value);
+            const result = x * y;
+            document.getElementById('ans').innerHTML = `Multiplication: ${result}`;
+        };
+        const d = () => {
+            const x = parseFloat(document.getElementById('num1').value);
+            const y = parseFloat(document.getElementById('num2').value);
+            if (y != 0) {
+                const result = x / y;
+                document.getElementById('ans').innerHTML = `Division: ${result}`;
+            }
+            else {
+                document.getElementById('ans').innerHTML = 'Cannot divide by Zero.'; 
+            };
+        };
+    </script>
+</head>
+<body>
+    <label for="num1">Number1:</label>
+    <input type="number" id="num1" placeholder="Enter Number1" /><br />
+    <label for="num2">Number2:</label>
+    <input type="number" id="num2" placeholder="Enter Number2" /><br />
+    <p>result: <p id="ans"></p></p><br />
+    <button onclick="m()">Multiply</button>
+    <button onclick="d()">Divide</button>
+</body>
+</html>

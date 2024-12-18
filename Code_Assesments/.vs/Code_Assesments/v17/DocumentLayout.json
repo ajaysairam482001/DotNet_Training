@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|d:\\dotnet_training\\assignments\\code_assesments\\assesment7\\question3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|solutionrelative:assesment7\\question3.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|d:\\dotnet_training\\assignments\\code_assesments\\assesment7\\question2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|solutionrelative:assesment7\\question2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|d:\\dotnet_training\\assignments\\code_assesments\\assesment7\\question1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|solutionrelative:assesment7\\question1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|d:\\dotnet_training\\assignments\\code_assesments\\assesment7\\js_q1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|solutionrelative:assesment7\\js_q1.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|d:\\dotnet_training\\assignments\\code_assesments\\assesment7\\js_q2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|solutionrelative:assesment7\\js_q2.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|d:\\dotnet_training\\assignments\\code_assesments\\assesment6\\ado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FB0B9F7-E3D1-4C53-BCD5-9A62804DFB31}|Code_Assesments.csproj|solutionrelative:assesment6\\ado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,19 +42,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Question3.html",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Assesment7\\Question3.html",
+              "RelativeDocumentMoniker": "Assesment7\\Question3.html",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Assesment7\\Question3.html",
+              "RelativeToolTip": "Assesment7\\Question3.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-18T05:39:45.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Question2.html",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Assesment7\\Question2.html",
+              "RelativeDocumentMoniker": "Assesment7\\Question2.html",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Assesment7\\Question2.html",
+              "RelativeToolTip": "Assesment7\\Question2.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-18T05:29:54.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JS_Q2.html",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Assesment7\\JS_Q2.html",
+              "RelativeDocumentMoniker": "Assesment7\\JS_Q2.html",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Assesment7\\JS_Q2.html",
+              "RelativeToolTip": "Assesment7\\JS_Q2.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-18T05:18:29.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JS_Q1.html",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Assesment7\\JS_Q1.html",
+              "RelativeDocumentMoniker": "Assesment7\\JS_Q1.html",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Assesment7\\JS_Q1.html",
+              "RelativeToolTip": "Assesment7\\JS_Q1.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-18T05:01:01.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Question1.html",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Assesment7\\Question1.html",
+              "RelativeDocumentMoniker": "Assesment7\\Question1.html",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Assesment7\\Question1.html",
+              "RelativeToolTip": "Assesment7\\Question1.html",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-18T04:33:53.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ADO.cs",
               "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Assesment6\\ADO.cs",
               "RelativeDocumentMoniker": "Assesment6\\ADO.cs",
               "ToolTip": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Assesment6\\ADO.cs",
               "RelativeToolTip": "Assesment6\\ADO.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAwwBcAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T05:41:41.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Code_Assesments",
               "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\Code_Assesments\\Code_Assesments.csproj",
               "RelativeDocumentMoniker": "Code_Assesments.csproj",
