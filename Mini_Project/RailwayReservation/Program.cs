@@ -10,7 +10,7 @@ namespace RailwayReservation
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Login.LoginMethod());
+            Login.LoginMethod();
             Console.Read();
         }
     }

@@ -5,3 +5,6 @@ D:\Dotnet_Training\Assignments\Mini_Project\RailwayReservation\bin\Debug\Railway
 D:\Dotnet_Training\Assignments\Mini_Project\RailwayReservation\bin\Debug\RailwayReservation.pdb
 D:\Dotnet_Training\Assignments\Mini_Project\RailwayReservation\obj\Debug\RailwayReservation.exe
 D:\Dotnet_Training\Assignments\Mini_Project\RailwayReservation\obj\Debug\RailwayReservation.pdb
+D:\Dotnet_Training\Assignments\Mini_Project\RailwayReservation\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Dotnet_Training\Assignments\Mini_Project\RailwayReservation\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Dotnet_Training\Assignments\Mini_Project\RailwayReservation\obj\Debug\RailwayR.706D3DDE.Up2Date

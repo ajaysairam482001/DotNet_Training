@@ -7,39 +7,61 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Configuration;
 
 namespace RailwayReservation
 {
     class Login
     {
-        private static readonly string connectionString = "Data Source=DESKTOP-9ROIE47\\SQLEXPRESS;Initial Catalog=Railway_db;Trusted_Connection=True;Integrated Security=True";
-        public static string LoginMethod()
+        private static readonly string connectionString = ConfigurationManager.ConnectionStrings["MyConnection"].ConnectionString;
+        public static void LoginMethod()
         {
-            Console.WriteLine("1.Login/ 2.SignUp");
-            int opt = int.Parse(Console.ReadLine());
-            try
+            while (true)
             {
-                if(opt == 1)
+                Console.WriteLine("\nWelcome to the Infinte Railway Reservation System!");
+                Console.Write("1.Login\n2.SignUp\n3.Exit\nEnter Option (1/2/3): ");
+                int opt;
+                try
                 {
-                    return userLogin();
+                    opt = int.Parse(Console.ReadLine());
                 }
-                else if(opt == 2)
+                catch (FormatException)
                 {
-                    return signup();
+                    Console.WriteLine("Enter a Valid Number.");
+                    continue;
                 }
-                else
+                try
                 {
-                    throw new InvalidInputException();
+                    if (opt == 1)
+                    {
+                        userLogin();
+                        continue;
+                    }
+                    else if (opt == 2)
+                    {
+                        signup();
+                        continue;
+                    }
+                    else if (opt == 3)
+                    {
+                        Console.WriteLine("Thank You!\nVisit Again.\n");
+                        return;
+                    }
+                    else
+                    {
+                        throw new InvalidInputException();
+                    }
                 }
-            }
-            catch (InvalidInputException e)
-            {
-                //Console.WriteLine(e.Message);
-                return e.Message;
+                catch (InvalidInputException e)
+                {
+                    Console.WriteLine(e.Message);
+                    
+                }
             }
         }
 
-        public static string userLogin() {
+        public static void userLogin() 
+        {
             Console.Write("\nEnter User_Name: ");
             string UserName = Console.ReadLine();
             Console.Write("Enter Password: ");
@@ -48,7 +70,7 @@ namespace RailwayReservation
 
             string role = string.Empty;
             bool isSuccess = false;
-
+            int UserId = 0;
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 try
@@ -62,43 +84,69 @@ namespace RailwayReservation
                         cmd.Parameters.AddWithValue("@Password", Pass);
 
                         //Outputs
-                        SqlParameter roleParam = new SqlParameter("@Role", System.Data.SqlDbType.VarChar, 5)
+                        SqlParameter roleParam = new SqlParameter("@Role", SqlDbType.VarChar, 5)
                         {
-                            Direction = System.Data.ParameterDirection.Output
+                            Direction = ParameterDirection.Output
                         };
                         cmd.Parameters.Add(roleParam);
-                        SqlParameter isSuccessParam = new SqlParameter("@isSuccess", System.Data.SqlDbType.Bit)
+                        SqlParameter isSuccessParam = new SqlParameter("@isSuccess", SqlDbType.Bit)
                         {
-                            Direction = System.Data.ParameterDirection.Output
+                            Direction = ParameterDirection.Output
                         };
                         cmd.Parameters.Add(isSuccessParam);
+                        SqlParameter UserParam = new SqlParameter("@UserId", SqlDbType.Int)
+                        {
+                            Direction = ParameterDirection.Output
+                        };
+                        cmd.Parameters.Add(UserParam);
 
                         cmd.ExecuteNonQuery();
                         role = roleParam.Value != DBNull.Value ? roleParam.Value.ToString() : null;
                         isSuccess = (bool)isSuccessParam.Value;
+                        UserId = (int)UserParam.Value;
                         conn.Close();
                     }
                     if (isSuccess)
                     {
-                        //Console.WriteLine("Welcome "+role);
-                        return "Welcome " + role;
+                        Console.WriteLine("Welcome "+role+"\n");
+                        if (role.Equals("Admin"))
+                        {
+                            AdminFunc.AdminMenu();
+                            conn.Close();
+                            return;
+                        }
+                        else if (role.Equals("User"))
+                        {
+                            UserFunc.UserMenu(UserId);
+                            conn.Close(); 
+                            return;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Login Failed");
+                        }
+                        
                     }
                     else
                     {
-                        //Console.WriteLine("Incorrect UserName and Password.");
-                        return "Incorrect UserName and Password.";
+                        Console.WriteLine("Incorrect UserName and Password.");
+                        //return "Incorrect UserName and Password.";
                     }
                 }
                 catch (Exception ex)
                 {
-                    //Console.WriteLine("Error Occured: "+ ex.Message);
-                    return "Error Occured: " + ex.Message;
+                    Console.WriteLine("Error Occured: "+ ex.Message);
+                    //return "Error Occured: " + ex.Message;
+                }
+                finally
+                {
+                    conn.Close();
                 }
 
             }
         }
 
-        public static string signup()
+        public static void signup()
         {
             Console.Write("\nEnter UserName: ");
             string un = Console.ReadLine();
@@ -113,8 +161,8 @@ namespace RailwayReservation
             {
                 throw new InvalidInputException();
             }
-            string insertQuery = "insert into login_table (UserName,Password,Category,Email) values (@username,@password,@category,@email);";
-            string insertQueryUser = "insert into user_table (Id,Name,Email,Contact_number) values (@Id,@username,@email,@Contact_number);";
+            string insertQuery = ConfigurationManager.AppSettings["InsertQuery"];
+            string insertQueryUser = ConfigurationManager.AppSettings["InsertInUser"];
 
 
             using (SqlConnection conn = new SqlConnection(connectionString))
@@ -131,7 +179,8 @@ namespace RailwayReservation
                         {
                             transc.Rollback();
                             conn.Close();
-                            return temp ? "Admin Already exists." : "";
+                            Console.WriteLine("Admin Already exists.");
+                            return;
                         }
                         
                     }
@@ -151,6 +200,7 @@ namespace RailwayReservation
                     }
                     if (category.Equals("User"))
                     {
+                        //fetching userId from Login Table
                         using (SqlCommand cmd = new SqlCommand("sp_fetchUserId", conn, transc))
                         {
                             cmd.Transaction = transc;
@@ -158,9 +208,9 @@ namespace RailwayReservation
                             //Inputs
                             cmd.Parameters.AddWithValue("@email", Email);
                             //output
-                            SqlParameter IdParam = new SqlParameter("@Id", System.Data.SqlDbType.Int)
+                            SqlParameter IdParam = new SqlParameter("@Id", SqlDbType.Int)
                             {
-                                Direction = System.Data.ParameterDirection.Output
+                                Direction = ParameterDirection.Output
                             };
                             cmd.Parameters.Add(IdParam);
 
@@ -185,12 +235,12 @@ namespace RailwayReservation
                         //Console.WriteLine("Successfully registered " + category);
                         transc.Commit();
                         conn.Close();
-                        return "Successfully registered " + category;
+                        Console.WriteLine("Successfully registered " + category);
                     }
                     else
                     {
                         //Console.WriteLine("Failed to register");
-                        return "Failed to register";
+                        Console.WriteLine("Failed to register");
                     }
 
                 }
@@ -198,20 +248,20 @@ namespace RailwayReservation
                 {
                     if (ex.Number == 2627) //unique constraint violation
                     {
-                        return "Error: Username or Email already exists.";
+                        Console.WriteLine("Error: Username or Email already exists.");
                     }
                     else
                     {
                         transc.Rollback();
                         conn.Close();
-                        return "Error occured: " + ex.Message;
+                        Console.WriteLine("Error occured: " + ex.Message);
                     }
                 }
                 catch (Exception ex)
                 {
                     transc.Rollback();
                     conn.Close();
-                    return "Error occured: " + ex.Message;
+                    Console.WriteLine("Error occured: " + ex.Message);
                 }
             }
         }
@@ -229,7 +279,7 @@ namespace RailwayReservation
                     
                     SqlParameter existsParam = new SqlParameter("@Exists", SqlDbType.Bit)
                     {
-                        Direction = System.Data.ParameterDirection.Output
+                        Direction = ParameterDirection.Output
                     };
                     cmd.Parameters.Add(existsParam);
                     cmd.ExecuteNonQuery();
