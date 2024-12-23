@@ -156,6 +156,8 @@ CREATE OR ALTER PROCEDURE sp_CancelTicketsByUserAndInstance
     @Remarks VARCHAR(255) OUTPUT
 AS
 BEGIN
+	DECLARE @Price DECIMAL(10, 2);
+	DECLARE @RefundAmount DECIMAL(10, 2);
     -- Check if the ticket exists for the user and train instance
     IF EXISTS (
         SELECT 1 
@@ -170,6 +172,11 @@ BEGIN
             WHERE User_ID = @UserId AND TicketNumber = @TicketNumber AND TrainInstanceId = @TrainInstanceId AND Status = 'Active'
         )
         BEGIN
+			-- Get the ticket price
+            SELECT @Price = Price
+            FROM ticket_table
+            WHERE User_ID = @UserId AND TicketNumber = @TicketNumber AND TrainInstanceId = @TrainInstanceId;
+			SET @RefundAmount = @Price * 0.9; --calculate the refunded amt	
             -- Cancel the active ticket
             UPDATE ticket_table
             SET 
@@ -180,8 +187,8 @@ BEGIN
 				AND TicketNumber = @TicketNumber
                 AND TrainInstanceId = @TrainInstanceId 
                 AND Status = 'Active';
-
-            SET @Remarks = 'Ticket successfully cancelled.';
+				
+            SET @Remarks = CONCAT('Ticket successfully cancelled. Refunded amount: Rs.', CAST(@RefundAmount AS VARCHAR));
         END
         ELSE IF EXISTS (
             SELECT 1 

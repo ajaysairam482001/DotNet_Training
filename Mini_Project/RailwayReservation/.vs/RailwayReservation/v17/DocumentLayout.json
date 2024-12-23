@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "D:\\Dotnet_Training\\Assignments\\Mini_Project\\RailwayReservation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DF0923EC-D418-431E-8272-677581C73A91}|RailwayReservation.csproj|D:\\Dotnet_Training\\Assignments\\Mini_Project\\RailwayReservation\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF0923EC-D418-431E-8272-677581C73A91}|RailwayReservation.csproj|d:\\dotnet_training\\assignments\\mini_project\\railwayreservation\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF0923EC-D418-431E-8272-677581C73A91}|RailwayReservation.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{DF0923EC-D418-431E-8272-677581C73A91}|RailwayReservation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF0923EC-D418-431E-8272-677581C73A91}|RailwayReservation.csproj|d:\\dotnet_training\\assignments\\mini_project\\railwayreservation\\userfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DF0923EC-D418-431E-8272-677581C73A91}|RailwayReservation.csproj|D:\\Dotnet_Training\\Assignments\\Mini_Project\\RailwayReservation\\userfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DF0923EC-D418-431E-8272-677581C73A91}|RailwayReservation.csproj|solutionrelative:userfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -43,8 +43,7 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-12-18T07:22:18.923Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -56,8 +55,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T11:26:13.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T11:26:13.238Z"
             },
             {
               "$type": "Document",
@@ -67,7 +65,7 @@
               "RelativeDocumentMoniker": "Login.cs",
               "ToolTip": "D:\\Dotnet_Training\\Assignments\\Mini_Project\\RailwayReservation\\Login.cs",
               "RelativeToolTip": "Login.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T10:25:19.778Z",
               "EditorCaption": ""
@@ -82,8 +80,7 @@
               "RelativeToolTip": "AdminFunc.cs",
               "ViewState": "AgIAAIMAAAAAAAAAAAAUwKAEAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T10:16:08.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-17T10:16:08.838Z"
             },
             {
               "$type": "Document",
@@ -95,8 +92,7 @@
               "RelativeToolTip": "UserFunc.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAADEBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T11:42:48.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T11:42:48.657Z"
             }
           ]
         }
