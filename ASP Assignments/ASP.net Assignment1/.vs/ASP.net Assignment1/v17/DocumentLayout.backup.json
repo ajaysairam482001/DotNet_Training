@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dotnet_Training\\Assignments\\ASP Assignments\\ASP.net Assignment1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D871F6C9-D08E-415E-8B2F-028E48B547BC}|ASP.net Assignment1.csproj|d:\\dotnet_training\\assignments\\asp assignments\\asp.net assignment1\\validate.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D871F6C9-D08E-415E-8B2F-028E48B547BC}|ASP.net Assignment1.csproj|solutionrelative:validate.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D871F6C9-D08E-415E-8B2F-028E48B547BC}|ASP.net Assignment1.csproj|d:\\dotnet_training\\assignments\\asp assignments\\asp.net assignment1\\product.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{D871F6C9-D08E-415E-8B2F-028E48B547BC}|ASP.net Assignment1.csproj|solutionrelative:product.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D871F6C9-D08E-415E-8B2F-028E48B547BC}|ASP.net Assignment1.csproj|d:\\dotnet_training\\assignments\\asp assignments\\asp.net assignment1\\product.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D871F6C9-D08E-415E-8B2F-028E48B547BC}|ASP.net Assignment1.csproj|solutionrelative:product.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "product.aspx",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\ASP Assignments\\ASP.net Assignment1\\product.aspx",
+              "RelativeDocumentMoniker": "product.aspx",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\ASP Assignments\\ASP.net Assignment1\\product.aspx",
+              "RelativeToolTip": "product.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-26T15:11:30.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "product.aspx.cs",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\ASP Assignments\\ASP.net Assignment1\\product.aspx.cs",
+              "RelativeDocumentMoniker": "product.aspx.cs",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\ASP Assignments\\ASP.net Assignment1\\product.aspx.cs",
+              "RelativeToolTip": "product.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T15:07:57.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Validate.aspx",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\ASP Assignments\\ASP.net Assignment1\\Validate.aspx",
+              "RelativeDocumentMoniker": "Validate.aspx",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\ASP Assignments\\ASP.net Assignment1\\Validate.aspx",
+              "RelativeToolTip": "Validate.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-26T15:00:19.595Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

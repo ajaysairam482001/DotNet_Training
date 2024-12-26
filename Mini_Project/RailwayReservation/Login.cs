@@ -18,7 +18,8 @@ namespace RailwayReservation
         {
             while (true)
             {
-                Console.WriteLine("\nWelcome to the Infinte Railway Reservation System!");
+                Console.Clear();
+                Console.WriteLine("\nWelcome to Infinite Railway Reservation System!");
                 Console.Write("1.Login\n2.SignUp\n3.Exit\nEnter Option (1/2/3): ");
                 int opt;
                 try
@@ -28,6 +29,7 @@ namespace RailwayReservation
                 catch (FormatException)
                 {
                     Console.WriteLine("Enter a Valid Number.");
+                    Console.ReadLine();
                     continue;
                 }
                 try
@@ -44,6 +46,7 @@ namespace RailwayReservation
                     }
                     else if (opt == 3)
                     {
+                        Console.Clear();
                         Console.WriteLine("Thank You!\nVisit Again.\n");
                         return;
                     }
@@ -55,7 +58,8 @@ namespace RailwayReservation
                 catch (InvalidInputException e)
                 {
                     Console.WriteLine(e.Message);
-                    
+                    Console.ReadLine();
+
                 }
             }
         }
@@ -124,18 +128,21 @@ namespace RailwayReservation
                         else
                         {
                             Console.WriteLine("Login Failed");
+                            Console.ReadLine();
                         }
                         
                     }
                     else
                     {
                         Console.WriteLine("Incorrect UserName and Password.");
+                        Console.ReadLine();
                         //return "Incorrect UserName and Password.";
                     }
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine("Error Occured: "+ ex.Message);
+                    Console.ReadLine();
                     //return "Error Occured: " + ex.Message;
                 }
                 finally
@@ -180,6 +187,7 @@ namespace RailwayReservation
                             transc.Rollback();
                             conn.Close();
                             Console.WriteLine("Admin Already exists.");
+                            Console.ReadLine();
                             return;
                         }
                         
@@ -236,11 +244,13 @@ namespace RailwayReservation
                         transc.Commit();
                         conn.Close();
                         Console.WriteLine("Successfully registered " + category);
+                        Console.ReadLine();
                     }
                     else
                     {
                         //Console.WriteLine("Failed to register");
                         Console.WriteLine("Failed to register");
+                        Console.ReadLine();
                     }
 
                 }
@@ -249,12 +259,14 @@ namespace RailwayReservation
                     if (ex.Number == 2627) //unique constraint violation
                     {
                         Console.WriteLine("Error: Username or Email already exists.");
+                        Console.ReadLine();
                     }
                     else
                     {
                         transc.Rollback();
                         conn.Close();
                         Console.WriteLine("Error occured: " + ex.Message);
+                        Console.ReadLine();
                     }
                 }
                 catch (Exception ex)
@@ -262,6 +274,7 @@ namespace RailwayReservation
                     transc.Rollback();
                     conn.Close();
                     Console.WriteLine("Error occured: " + ex.Message);
+                    Console.ReadLine();
                 }
             }
         }

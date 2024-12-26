@@ -40,7 +40,6 @@ BEGIN
     INTO #CancelledTickets
     FROM ticket_table
     WHERE TrainInstanceId = @TrainInstanceId AND Class = @Class AND Status = 'Cancelled';
-
     SET @CancelledTicketsCount = @@ROWCOUNT;
 
     -- If there are canceled tickets, reassign them to the user
@@ -105,7 +104,7 @@ BEGIN
     -- Commit transaction
     COMMIT TRANSACTION;
 
-    SET @Remarks = 'Tickets successfully booked';
+    SET @Remarks = 'Tickets successfully booked. Happy Journey!';
 END;
 
 ------------------------------------------------------------------------------------------------------------------------------------

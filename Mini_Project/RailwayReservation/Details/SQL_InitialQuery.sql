@@ -87,9 +87,9 @@ select * from login_table;
 select * from user_table;
 
 
-truncate table login_table;
-delete from user_table;
-delete from login_table;
+--truncate table login_table;
+--delete from user_table;
+--delete from login_table;
 --during booking write a procedure to fetch the respective instance berth price from the table
 
 select * from train_table;

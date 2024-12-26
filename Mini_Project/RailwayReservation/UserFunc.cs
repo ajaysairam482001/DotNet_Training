@@ -38,6 +38,7 @@ namespace RailwayReservation
                         }
                         if(exists == 1)
                         {
+                            Console.Clear();
                             Console.WriteLine("\nWelcome To User Menu.\nPlease Choose an Option to proceed.");
                             Console.Write("\n1.Show All Train Schedules.\n2.Book a Ticket.\n3.Cancel a Ticket.\n4.Show My tickets.\n5.Exit.\nOption: ");
                             int option = int.Parse(Console.ReadLine());
@@ -57,6 +58,7 @@ namespace RailwayReservation
                                     break;
                                 case 5:
                                     Console.WriteLine("Logged out");
+                                    Console.ReadLine();
                                     break;
                             }
                             if (option == 5 || option == 0)
@@ -71,6 +73,7 @@ namespace RailwayReservation
                         else
                         {
                             Console.WriteLine("Invalid user.");
+                            Console.ReadLine();
                         }
                     }
                     
@@ -78,10 +81,12 @@ namespace RailwayReservation
                 catch (FormatException)
                 {
                     Console.WriteLine("Enter a Valid Option (Number).");
+                    Console.ReadLine();
                 }
                 catch (InvalidInputException ex)
                 {
                     Console.WriteLine(ex.Message);
+                    Console.ReadLine();
                 }
             }
         }
@@ -105,7 +110,7 @@ namespace RailwayReservation
                         
                             Console.WriteLine("\nTrain Schedules:");
                             Console.WriteLine("------------------------------------------------------------------------------------------");
-                            Console.WriteLine("Instance ID | Train Number | From      | To        | Time     | Departure Date |");
+                            Console.WriteLine("Instance ID | Train Number | From           | To              | Time     | Departure Date |");
                             Console.WriteLine("-------------------------------------------------------------------------------------------");
                             while (reader.Read())
                             {
@@ -116,7 +121,7 @@ namespace RailwayReservation
                                 TimeSpan timings = reader.GetTimeSpan(4);
                                 DateTime departureDate = reader.GetDateTime(5);
                                 
-                                Console.WriteLine($"{instanceId,11} | {trainNumber,12} | {fromStation,-9} | {toStation,-9} | {timings:hh\\:mm}    | {departureDate:dd/MM/yyyy}    ");
+                                Console.WriteLine($"{instanceId,11} | {trainNumber,12} | {fromStation,-14} | {toStation,-15} | {timings:hh\\:mm}    | {departureDate:dd/MM/yyyy}    ");
                             }
                         }
                     }
@@ -172,12 +177,22 @@ namespace RailwayReservation
                         }
                         if (exists == 1)
                         {
+                            int loop1 = 1;
                             while (true)
                             {
+                                if(loop == 0)
+                                {
+                                    break;
+                                }
                                 try
                                 {
                                     Console.Write("\nEnter the class(Eg.,(Sleeper/3A/2A/1A): ");
                                     string _class = Console.ReadLine();
+                                    if (_class.Equals("0"))
+                                    {
+                                        loop1 = 0;
+                                        continue;
+                                    }
                                     if (_class.Equals("Sleeper") || _class.Equals("3A") || _class.Equals("2A") || _class.Equals("1A"))
                                     {
                                         Console.Write("Enter the number of tickets to book in class " + _class + ": ");
@@ -276,7 +291,11 @@ namespace RailwayReservation
                                     Console.WriteLine("Error: " + ex.Message);
                                 }
                             }
-                            
+                            Console.ReadLine();
+                            if(loop1 == 1)
+                            {
+                                Console.WriteLine("\nNote: Enter Class as 0 to go back...... ");
+                            }
                         }
                         else
                         {
@@ -499,7 +518,7 @@ namespace RailwayReservation
 
                             Console.WriteLine("\nActive Tickets:");
                             Console.WriteLine("--------------------------------------------------------------------------------");
-                            Console.WriteLine("Ticket No | Instance ID | Class   | Seat No | Berth | Booking Date  | Price (Rs.)  ");
+                            Console.WriteLine("Ticket No | Instance ID | Class   | Seat No | Berth | Date of Departure  | Price (Rs.)  ");
                             Console.WriteLine("-----------------------------------------------------------------------------------");
 
                             while (reader.Read())
@@ -511,7 +530,7 @@ namespace RailwayReservation
                                 string berth = reader.GetString(4);
                                 DateTime bookingDate = reader.GetDateTime(5);
                                 decimal price = reader.GetDecimal(6);
-                                Console.WriteLine($"{ticketNumber,9} | {trainInstanceId,11} | {classType,7} | {seatNumber,7} | {berth,-5} | {bookingDate:'dd/MM/yyyy'}    | {price,7} ");
+                                Console.WriteLine($"{ticketNumber,9} | {trainInstanceId,11} | {classType,7} | {seatNumber,7} | {berth,-5} | {bookingDate:dd/MM/yyyy}    | {price,7} ");
                             }
                         }
                     }

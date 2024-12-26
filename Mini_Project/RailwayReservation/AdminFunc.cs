@@ -20,6 +20,7 @@ namespace RailwayReservation
             {
                 try
                 {
+                    Console.Clear();
                     Console.WriteLine("\nWelcome to Admin Menu.\nPlease Choose an Option to proceed.");
                     Console.Write("\n1.Add a new Train\n2.Modify an Existing Train\n3.Delete/Retire a Train\n4.Add a Train Schedule" +
                         "\n5.Cancel a Train Schedule\n6.Show All Train Schedules\n7.Show Train Status\n8.Exit\nOption: ");
@@ -104,21 +105,25 @@ namespace RailwayReservation
                             transaction.Commit();
                             conn.Close();
                             Console.WriteLine("Train Successfully Added");
+                            Console.ReadLine();
                         }
                         else
                         {
                             Console.WriteLine("Failed to Create Train.");
                             transaction.Rollback();
+                            Console.ReadLine();
                         }
                     }catch(SqlException ex)
                     {
                         if(ex.Number == 2627)
                         {
                             Console.WriteLine("Train Already Exists");
+                            Console.ReadLine();
                         }
                         else
                         {
                             Console.WriteLine("Error: "+ ex.Message);
+                            Console.ReadLine();
                         }
                         transaction.Rollback();
                     }
@@ -127,6 +132,7 @@ namespace RailwayReservation
             catch(FormatException)
             {
                 Console.WriteLine("Enter Valid Input");
+                Console.ReadLine();
             }
         }
         private static void ModifyTrainorg()
@@ -298,7 +304,7 @@ namespace RailwayReservation
                 }
                 
             }
-        }
+        } //not used
         private static void ModifyTrain()
         {
             while (true)
@@ -378,17 +384,20 @@ namespace RailwayReservation
                                                 {
                                                     trans.Commit();
                                                     Console.WriteLine("Train Number updated successfully.");
+                                                    Console.ReadLine();
                                                 }
                                                 else
                                                 {
                                                     trans.Rollback();
                                                     Console.WriteLine("Failed to update Train Number.");
+                                                    Console.ReadLine();
                                                 }
                                             }
                                             catch (Exception ex)
                                             {
                                                 trans.Rollback();
                                                 Console.WriteLine("Error: " + ex.Message);
+                                                Console.ReadLine();
                                             }
                                         }
                                         break;
@@ -406,13 +415,14 @@ namespace RailwayReservation
 
                                             if (Lines > 0)
                                             {
-                                                ;
                                                 Console.WriteLine("Train Name Changed Successfully.");
+                                                Console.ReadLine();
                                             }
                                             else
                                             {
                                                 
                                                 Console.WriteLine("Failed to Change Train Name.");
+                                                Console.ReadLine();
                                             }
                                             break;
 
@@ -437,6 +447,7 @@ namespace RailwayReservation
                                                 
                                                 Console.WriteLine("Failed to Change Train Type.");
                                             }
+                                            Console.ReadLine();
                                             break;
 
                                         default:
@@ -445,8 +456,8 @@ namespace RailwayReservation
                                 }
                                 catch (Exception ex)
                                 {
-                                    
-                                    throw ex;
+                                Console.WriteLine(ex.Message);
+
                                 }
                             
                         }
@@ -591,10 +602,12 @@ namespace RailwayReservation
                         }
                         conn.Close();
                     }
+                    Console.ReadLine();
                 }
                 catch (FormatException)
                 {
                     Console.WriteLine("Enter Valid Train Number.");
+                    Console.ReadLine();
                 }
                 if(loop == 0)
                 {
@@ -760,6 +773,7 @@ namespace RailwayReservation
                 catch (FormatException)
                 {
                     Console.WriteLine("Enter Valid Input.");
+                    Console.ReadLine();
                 }
                 Console.WriteLine("\nNote: Enter TrainInstanceId as 0 to go back......");
             }
@@ -852,20 +866,24 @@ namespace RailwayReservation
                                     if(lines > 0)
                                     {
                                         Console.WriteLine("\nClass "+i+"A Added.");
+                                        Console.ReadLine();
                                         loop = 0;
                                     }
                                     else
                                     {
                                         Console.WriteLine("Failed to add class");
+                                        Console.ReadLine();
                                     }
                                 }
                                 catch (InvalidInputException ex)
                                 {
                                     Console.WriteLine(ex.Message);
+                                    Console.ReadLine();
                                 }
                                 catch (FormatException)
                                 {
                                     Console.WriteLine("Error: Enter Valid Input.");
+                                    Console.ReadLine();
                                 }
                             }
                         }
@@ -874,6 +892,7 @@ namespace RailwayReservation
                 
                 AddPriceDetails(InstanceId,conn);
             }
+            
             catch (FormatException)
             {
                 Console.WriteLine("Enter Valid Input");
@@ -897,39 +916,45 @@ namespace RailwayReservation
                         if (i == 4)
                         {
                             int loop = 1;
-                            while (true)
+                        while (true)
+                        {
+                            if (loop == 0)
+                                break;
+                            try
                             {
-                                if (loop == 0)
-                                    break;
-                                try
+                                Console.WriteLine("\nEnter the Price for Instance " + InstanceId + ",Class Sleeper.");
+                                string _class = "Sleeper";
+                                Console.Write("Enter the Price: ");
+                                double price = double.Parse(Console.ReadLine());
+                                using (SqlCommand cmd = new SqlCommand(ConfigurationManager.AppSettings["AddPriceDetails"], conn))
                                 {
-                                    Console.WriteLine("\nEnter the Price for Instance " + InstanceId + ",Class Sleeper.");
-                                    string _class = "Sleeper";
-                                    Console.Write("Enter the Price: ");
-                                    double price = double.Parse(Console.ReadLine());
-                                    using (SqlCommand cmd = new SqlCommand(ConfigurationManager.AppSettings["AddPriceDetails"], conn))
-                                    {
-                                        cmd.Parameters.AddWithValue("@Instance", InstanceId);
-                                        cmd.Parameters.AddWithValue("@_class", _class);
-                                        cmd.Parameters.AddWithValue("@price", price);
-                                        lines = cmd.ExecuteNonQuery();
-                                    }
-                                    if (lines > 0)
-                                    {
-                                        Console.WriteLine("\nClass Sleeper Price Added.");
-                                        loop = 0;
-                                    }
-                                    else
-                                    {
-                                        Console.WriteLine("Failed to add class");                                    }
+                                    cmd.Parameters.AddWithValue("@Instance", InstanceId);
+                                    cmd.Parameters.AddWithValue("@_class", _class);
+                                    cmd.Parameters.AddWithValue("@price", price);
+                                    lines = cmd.ExecuteNonQuery();
                                 }
+                                if (lines > 0)
+                                {
+                                    Console.WriteLine("\nClass Sleeper Price Added.");
+                                    Console.ReadLine();
+                                    loop = 0;
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Failed to add class");
+                                    Console.ReadLine();
+                                }
+                                }
+                            
                                 catch (InvalidInputException ex)
                                 {
                                     Console.WriteLine(ex.Message);
+                                    Console.ReadLine();
                                 }
                                 catch (FormatException)
                                 {
                                     Console.WriteLine("Error: Enter Valid Input.");
+                                    Console.ReadLine();
                                 }
                             }
                         }
@@ -956,24 +981,29 @@ namespace RailwayReservation
                                     if (lines > 0)
                                     {
                                         Console.WriteLine("\nClass " + i + "A Price Added.");
+                                        Console.ReadLine();
                                         loop = 0; 
                                     }
                                     else
                                     {
                                         Console.WriteLine("Failed to add class");
+                                        Console.ReadLine();
                                     }
                                 }
                                 catch (InvalidInputException ex)
                                 {
                                     Console.WriteLine(ex.Message);
+                                    Console.ReadLine();
                                 }
                                 catch (SqlException ex)
                                 {
                                     Console.WriteLine("Error: "+ex.Message);
+                                    Console.ReadLine();
                                 }
                                 catch (FormatException)
                                 {
                                     Console.WriteLine("Error: Enter Valid Input.");
+                                    Console.ReadLine();
                                 }
 
                             }
@@ -984,6 +1014,7 @@ namespace RailwayReservation
             catch (FormatException)
             {
                 Console.WriteLine("Error: Enter Valid Input.");
+                Console.ReadLine();
             }
         }
         private static void CancelTrainSchedule()
@@ -1018,6 +1049,7 @@ namespace RailwayReservation
                         if(OverallExists == 0)
                         {
                             Console.WriteLine("Train Schedule does not exist.");
+                            Console.ReadLine();
                         }
                         else if(OverallExists == 1)
                         {
@@ -1037,6 +1069,7 @@ namespace RailwayReservation
                             if(ActiveOnlyExists == 0)
                             {
                                 Console.WriteLine("Train Schedule is Already Cancelled.");
+                                Console.ReadLine();
                             }
                             //active
                             else if(ActiveOnlyExists == 1) 
@@ -1056,12 +1089,14 @@ namespace RailwayReservation
                                 if (Lines > 0)
                                 {
                                     Console.WriteLine("Train Schedule Cancelled Successfully.");
+                                    Console.ReadLine();
                                     loop = 0;
                                     break;
                                 }
                                 else
                                 {
                                     Console.WriteLine("Unable to Cancel the Schedule.");
+                                    Console.ReadLine();
                                 }
                             }
                             else
@@ -1081,14 +1116,17 @@ namespace RailwayReservation
                 catch(SqlException ex)
                 {
                     Console.WriteLine("Error: " + ex.Message);
+                    Console.ReadLine();
                 }
                 catch (ApplicationException ex)
                 {
                     Console.WriteLine("Error: "+ex.Message);
+                    Console.ReadLine();
                 }
                 catch (FormatException)
                 {
                     Console.WriteLine("Enter Valid Input.");
+                    Console.ReadLine();
                 }
             }
         }
@@ -1105,7 +1143,7 @@ namespace RailwayReservation
                         {
                             Console.WriteLine("\nTrain Schedules:");
                             Console.WriteLine("------------------------------------------------------------------------------------------");
-                            Console.WriteLine("Instance ID | Train Number | From      | To        | Time     | Departure Date | Status");
+                            Console.WriteLine("Instance ID | Train Number | From            | To              | Time     | Departure Date | Status");
                             Console.WriteLine("-------------------------------------------------------------------------------------------");
                             while (reader.Read())
                             {
@@ -1116,7 +1154,7 @@ namespace RailwayReservation
                                 TimeSpan timings = reader.GetTimeSpan(4);
                                 DateTime departureDate = reader.GetDateTime(5);
                                 string status = reader.GetString(6);
-                                Console.WriteLine($"{instanceId,11} | {trainNumber,12} | {fromStation,-9} | {toStation,-9} | {timings:hh\\:mm}    | {departureDate:dd/MM/yyyy}     | {status}");
+                                Console.WriteLine($"{instanceId,11} | {trainNumber,12} | {fromStation,-15} | {toStation,-15} | {timings:hh\\:mm}    | {departureDate:dd/MM/yyyy}     | {status}");
                             }
                         }
                     }
