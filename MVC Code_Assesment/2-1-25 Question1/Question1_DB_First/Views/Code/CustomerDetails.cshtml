@@ -1,0 +1,30 @@
+﻿@model Question1_DB_First.Models.Customer
+
+@{
+    ViewBag.Title = "CustomerDetails";
+}
+
+<h2>Customer Details</h2>
+
+<div>
+    <h4>@Model.CompanyName</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>Contact Title</dt>
+        <dd>@Model.ContactTitle</dd>
+
+        <dt>Contact Name</dt>
+        <dd>@Model.ContactName</dd>
+
+        <dt>Address</dt>
+        <dd>@Model.Address</dd>
+
+        <dt>City</dt>
+        <dd>@Model.City</dd>
+
+        <dt>PostalCode</dt>
+        <dd>@Model.PostalCode</dd>
+    </dl>
+</div>
+

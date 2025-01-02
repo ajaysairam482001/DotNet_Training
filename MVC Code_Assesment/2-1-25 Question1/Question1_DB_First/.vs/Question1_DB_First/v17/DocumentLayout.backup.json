@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question1\\Question1_DB_First\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{553BB528-FB0D-4B8C-9319-9F132D6CF6C4}|Question1_DB_First.csproj|d:\\dotnet_training\\assignments\\mvc code_assesment\\2-1-25 question1\\question1_db_first\\views\\code\\customerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{553BB528-FB0D-4B8C-9319-9F132D6CF6C4}|Question1_DB_First.csproj|solutionrelative:views\\code\\customerdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{553BB528-FB0D-4B8C-9319-9F132D6CF6C4}|Question1_DB_First.csproj|d:\\dotnet_training\\assignments\\mvc code_assesment\\2-1-25 question1\\question1_db_first\\views\\code\\costumersingermany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{553BB528-FB0D-4B8C-9319-9F132D6CF6C4}|Question1_DB_First.csproj|solutionrelative:views\\code\\costumersingermany.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{553BB528-FB0D-4B8C-9319-9F132D6CF6C4}|Question1_DB_First.csproj|d:\\dotnet_training\\assignments\\mvc code_assesment\\2-1-25 question1\\question1_db_first\\models\\northwind_model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{553BB528-FB0D-4B8C-9319-9F132D6CF6C4}|Question1_DB_First.csproj|solutionrelative:models\\northwind_model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{553BB528-FB0D-4B8C-9319-9F132D6CF6C4}|Question1_DB_First.csproj|d:\\dotnet_training\\assignments\\mvc code_assesment\\2-1-25 question1\\question1_db_first\\controllers\\codecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{553BB528-FB0D-4B8C-9319-9F132D6CF6C4}|Question1_DB_First.csproj|solutionrelative:controllers\\codecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerDetails.cshtml",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question1\\Question1_DB_First\\Views\\Code\\CustomerDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\Code\\CustomerDetails.cshtml",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question1\\Question1_DB_First\\Views\\Code\\CustomerDetails.cshtml",
+              "RelativeToolTip": "Views\\Code\\CustomerDetails.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T12:22:54.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Northwind_Model.edmx [Diagram1]",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question1\\Question1_DB_First\\Models\\Northwind_Model.edmx",
+              "RelativeDocumentMoniker": "Models\\Northwind_Model.edmx",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question1\\Question1_DB_First\\Models\\Northwind_Model.edmx [Diagram1]",
+              "RelativeToolTip": "Models\\Northwind_Model.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-01-02T12:16:10.26Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "costumersInGermany.cshtml",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question1\\Question1_DB_First\\Views\\Code\\costumersInGermany.cshtml",
+              "RelativeDocumentMoniker": "Views\\Code\\costumersInGermany.cshtml",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question1\\Question1_DB_First\\Views\\Code\\costumersInGermany.cshtml",
+              "RelativeToolTip": "Views\\Code\\costumersInGermany.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T12:12:04.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CodeController.cs",
+              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question1\\Question1_DB_First\\Controllers\\CodeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CodeController.cs",
+              "ToolTip": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question1\\Question1_DB_First\\Controllers\\CodeController.cs",
+              "RelativeToolTip": "Controllers\\CodeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T12:06:08.778Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
