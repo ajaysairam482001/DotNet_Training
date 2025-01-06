@@ -3,39 +3,35 @@
   "WorkspaceRootPath": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|solutionrelative:controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|d:\\dotnet_training\\assignments\\mvc code_assesment\\2-1-25 question2\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|solutionrelative:views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|d:\\dotnet_training\\assignments\\mvc code_assesment\\2-1-25 question2\\views\\movies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\views\\movies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|solutionrelative:views\\movies\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|d:\\dotnet_training\\assignments\\mvc code_assesment\\2-1-25 question2\\views\\movies\\moviesbyyear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\views\\movies\\moviesbyyear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|solutionrelative:views\\movies\\moviesbyyear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|d:\\dotnet_training\\assignments\\mvc code_assesment\\2-1-25 question2\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|solutionrelative:controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|d:\\dotnet_training\\assignments\\mvc code_assesment\\2-1-25 question2\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|solutionrelative:views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|d:\\dotnet_training\\assignments\\mvc code_assesment\\2-1-25 question2\\migrations\\202501021329152_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|solutionrelative:migrations\\202501021329152_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|d:\\dotnet_training\\assignments\\mvc code_assesment\\2-1-25 question2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|d:\\dotnet_training\\assignments\\mvc code_assesment\\2-1-25 question2\\models\\moviesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\models\\moviesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|solutionrelative:models\\moviesdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|d:\\dotnet_training\\assignments\\mvc code_assesment\\2-1-25 question2\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31656784-C42D-44F0-B369-FFC19EC9E3A1}|2-1-25 Question2.csproj|solutionrelative:models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -46,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\Views\\Movies\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Movies\\Index.cshtml",
@@ -63,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MoviesByYear.cshtml",
               "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\Views\\Movies\\MoviesByYear.cshtml",
               "RelativeDocumentMoniker": "Views\\Movies\\MoviesByYear.cshtml",
@@ -71,12 +67,11 @@
               "RelativeToolTip": "Views\\Movies\\MoviesByYear.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-02T13:37:04.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T13:37:04.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\Views\\Movies\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Movies\\Edit.cshtml",
@@ -84,8 +79,7 @@
               "RelativeToolTip": "Views\\Movies\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-02T13:34:05.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T13:34:05.943Z"
             },
             {
               "$type": "Document",
@@ -97,18 +91,17 @@
               "RelativeToolTip": "Views\\Movies\\Create.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-02T13:32:38.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T13:32:38.374Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MoviesController.cs",
               "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\Controllers\\MoviesController.cs",
               "RelativeDocumentMoniker": "Controllers\\MoviesController.cs",
               "ToolTip": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\Controllers\\MoviesController.cs",
               "RelativeToolTip": "Controllers\\MoviesController.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAiwHUAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAswHYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-02T13:31:38.196Z",
               "EditorCaption": ""
@@ -116,19 +109,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "202501021329152_InitialCreate.cs",
-              "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\Migrations\\202501021329152_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\202501021329152_InitialCreate.cs",
-              "ToolTip": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\Migrations\\202501021329152_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\202501021329152_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T13:29:30.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\Web.config",
               "RelativeDocumentMoniker": "Web.config",
@@ -141,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "MoviesDbContext.cs",
               "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\Models\\MoviesDbContext.cs",
               "RelativeDocumentMoniker": "Models\\MoviesDbContext.cs",
@@ -149,12 +129,11 @@
               "RelativeToolTip": "Models\\MoviesDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T13:03:49.427Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T13:03:49.427Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Movie.cs",
               "DocumentMoniker": "D:\\Dotnet_Training\\Assignments\\MVC Code_Assesment\\2-1-25 Question2\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "Models\\Movie.cs",
@@ -162,8 +141,7 @@
               "RelativeToolTip": "Models\\Movie.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T13:01:08.156Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-02T13:01:08.156Z"
             }
           ]
         }

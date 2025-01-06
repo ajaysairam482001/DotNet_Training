@@ -20,7 +20,7 @@ namespace _2_1_25_Question2.Controllers
             return View(db.Movies.ToList());
         }
 
-        // GET: Movies/Details/5
+        
         public ActionResult Details(int? id)
         {
             if (id == null)
@@ -41,9 +41,7 @@ namespace _2_1_25_Question2.Controllers
             return View();
         }
 
-        // POST: Movies/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "ID,Moviename,DateofRelease")] Movie movie)
@@ -58,7 +56,7 @@ namespace _2_1_25_Question2.Controllers
             return View(movie);
         }
 
-        // GET: Movies/Edit/5
+        
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -73,9 +71,7 @@ namespace _2_1_25_Question2.Controllers
             return View(movie);
         }
 
-        // POST: Movies/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit([Bind(Include = "ID,Moviename,DateofRelease")] Movie movie)
@@ -89,7 +85,7 @@ namespace _2_1_25_Question2.Controllers
             return View(movie);
         }
 
-        // GET: Movies/Delete/5
+        
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -104,7 +100,7 @@ namespace _2_1_25_Question2.Controllers
             return View(movie);
         }
 
-        // POST: Movies/Delete/5
+        
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
@@ -121,13 +117,5 @@ namespace _2_1_25_Question2.Controllers
             return View(movies);
         }
 
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                db.Dispose();
-            }
-            base.Dispose(disposing);
-        }
     }
 }
